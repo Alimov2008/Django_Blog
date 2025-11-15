@@ -17,7 +17,7 @@ posts = [
 
 
 def home(request):
-    context = {"post": posts}
+    context = {"posts": posts}
     return render(request, "blog/home.html", context)
 
 
